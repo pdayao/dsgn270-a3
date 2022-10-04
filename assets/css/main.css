@@ -1,9 +1,9 @@
 .coloured-logo {
-  max-width: 50%;
+  max-width: 25vw;
 }
 
-img {
-  max-width: 50vw;
+.logo-monochrome {
+  max-width: 25vw;
 }
 
 .logo-grid {
