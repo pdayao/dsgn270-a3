@@ -1,5 +1,5 @@
 .coloured-logo {
-  max-width: 50vw;;
+  max-width: 50%;
 }
 
 img {
@@ -10,4 +10,16 @@ img {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.logo-triangle {
+  fill:#DCDBB3;
+}
+
+.logo-dog-outline {
+  fill: #C17606;
+}
+
+.logo-triangle:hover {
+  fill:yellow;
 }
