@@ -10,15 +10,23 @@
 <body>
   <!-- SVG manipulation -->
   <section>
-    <!-- Coloured Image (svg)-->
-    <svg 
-      fill="none" 
-      xmlns="http://www.w3.org/2000/svg" 
-      viewBox="0 0 211 217"
+    <div class="logo-grid">
+       <!-- Coloured Logo (dog svg)-->
+      <svg 
+        fill="none" 
+        xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 211 217"
+        class="coloured-logo"
       >
-        <path fill="#1E1E1E" d="M0 0h211v217H0z"/>
+        <path 
+          fill="#1E1E1E" 
+          d="M0 0h211v217H0z"
+        />
         <g clip-path="url(#a)">
-          <path fill="#fff" d="M0 0h211v217H0z"/>
+          <path 
+            fill="#fff" 
+            d="M0 0h211v217H0z"
+          />
           <!-- Triangle in background-->
           <path 
             d="M118.996 191.031-1 90.2905 210.708 64l-91.712 127.031Z" 
@@ -32,12 +40,16 @@
         </g>
         <defs>
           <clipPath id="a">
-            <path fill="#fff" d="M0 0h211v217H0z"/>
+            <path 
+              fill="#fff" 
+              d="M0 0h211v217H0z"
+            />
           </clipPath>
         </defs>
-    </svg>
-    <!-- Monochrome Image (svg)-->
-    <img src="assets/images/dog-monochrome.svg" alt="dog svg grey"/>
+      </svg>
+      <!-- Monochrome Logo (dog svg)-->
+      <img src="assets/images/dog-monochrome.svg" alt="dog svg grey"/>
+    </div>
   </section>
 </body>
 </html>
